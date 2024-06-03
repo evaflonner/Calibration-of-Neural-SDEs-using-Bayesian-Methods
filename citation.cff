@@ -1,1 +1,9 @@
-
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Flonner"
+  given-names: "Eva"
+title: "Robust financial calibration: a Bayesian approach for neural SDEs"
+version: 1
+date-released: 2024-06-03
+url: "https://github.com/evaflonner/Calibration-of-Neural-SDEs-using-Bayesian-Methods"
