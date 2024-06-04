@@ -14,3 +14,10 @@ The plots
 ![grafik](https://github.com/evaflonner/Calibration-of-Neural-SDEs-using-Bayesian-Methods/assets/147062673/c7c152fe-231d-49ec-aab7-08ddec250f87)
 
 reveal that in contrast to the bounds on the implied volatility surface presented in Gupta and Reisinger, we obtain much tighter bounds given by the minimum and maximum implied volatility for each strike and maturity that are obtained after algorithmic convergence.
+
+## References
+<a id="1">[1]</a>
+Gierjatowicz, Patryk, Marc Sabate-Vidales, David Šiška, Lukasz Szpruch, and Žan Žurič. (2020). Robust pricing and hedging via neural SDEs.
+
+<a id="2">[2]</a>
+Gupta, A., and C. Reisinger. (2014). Robust calibration of financial models using Bayesian estimators. Journal of Computational Finance 17:3–36.
