@@ -5,9 +5,9 @@ In this work we propose a Bayesian method to calibrate this model. The key-advan
 utilising the posterior distribution on neural network weights.
 This repository, which builds upon work done by [Patryk Gierjatowicz, Marc Sabate-Vidales and co-authors](https://github.com/msabvid/robust_nsde/blob/master/nsde_LSV.py), licensed under the GNU General Public License v3.0., consists of:
 
-1) A general .zip file providing code to calibrate the neural SDE with respect to option data, including an optional flag to jointy match time series data and a floating lookback option, where the data may be generated from your favourite model or may also be real.
+1) A general .zip file named 'Bayesian_NSDE_calibration_general', providing code to calibrate the neural SDE with respect to option data, including an optional flag to jointy match time series data and a floating lookback option, where the data may be generated from your favourite model or may also be real.
 
-2) An exemplyfing .ipynb, considering empirical S\&P 500 implied volatility data with 10 strikes and 4 maturities to determine the prices of the corresponding European call options.
+2) An exemplyfing .ipynb named 'Bayesian_NSDE_calibration_empirical', considering empirical S\&P 500 implied volatility data with 10 strikes and 4 maturities to determine the prices of the corresponding European call options.
    The spot price of the underlying at time 0 is $S_0 = 590$, $\delta=4.5$, $\sigma_{prior}=4$, the interest rate is $r = 0.060$ and dividend rate $d = 0.026$. The prices are 
 
    ![grafik](https://github.com/evaflonner/Calibration-of-Neural-SDEs-using-Bayesian-Methods/assets/147062673/8ff12c8c-5fb9-4114-bd0c-606dee40247b)
